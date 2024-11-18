@@ -44,7 +44,7 @@ def notificacao_login(cliente):
             else:
                 break
         except:
-            print('oi')
+            print('ERRO: Não foi possível identificar o usuário que entrou')
 
 def notificacao_logout(cliente):
     while True:
@@ -55,7 +55,7 @@ def notificacao_logout(cliente):
             else:
                 break
         except:
-            print('erro')
+            print('ERRO: Não foi possível possível identificar o usuário desconectado')
             
 
 def lista_online(cliente):
@@ -67,7 +67,7 @@ def lista_online(cliente):
             else:
                 break
         except:
-            print('erro')
+            print('ERRO: Não foi possível listar os clientes')
 
 
 def lista_cmd(cliente):
@@ -79,7 +79,7 @@ def lista_cmd(cliente):
             else:
                 break
         except:
-            print('erro')
+            print('ERRO: Não foi possível listar os comandos')
 
 
 #Solicita conexão ao servidor (HOST,PORTA)
