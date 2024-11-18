@@ -42,7 +42,7 @@ def serv(): #função para entrada de dados de texto do servidor
                 chat = not chat #valor padrão é alterado, para poder ver oq está sendo enviado
 
 
-            #FINALIZAR FUNÇÃO KICK
+            #VER FUNÇÃO KICK COM O PROFESSOR!!!!!
             elif serv_cmd.startswith('/kick '):
                 partes_cmd = serv_cmd.split(' ', 2) #separa a mensagem em duas partes, usando o espaço como separação
                 nome_kickado = partes_cmd[1].strip('"')  #nome de quem vai ser kickado, retira as aspas do texto transformando a escrita de quem vai receber em uma variavel pra lista
